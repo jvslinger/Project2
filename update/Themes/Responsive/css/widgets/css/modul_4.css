@@ -1,0 +1,9 @@
+/* widget twitter */
+
+.twitter-con, .twitter-con iframe {
+	height: 350px;
+}
+
+.twitter-con iframe {
+	width: 100% !important;
+}

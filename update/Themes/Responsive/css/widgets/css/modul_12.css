@@ -1,0 +1,10 @@
+/* widget write testimonial */
+
+.testimonial-form label {
+	margin: 0 0 10px;
+	float: left;
+}
+
+.testimonial-form textarea {
+	height: 50px;
+}

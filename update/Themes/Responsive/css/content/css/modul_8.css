@@ -1,0 +1,37 @@
+/* property galery */
+
+.property-galery-thumbs {
+	width: 100%;
+	float: left;
+	margin: 0 0 40px;
+}
+
+.property-galery-thumbs ul{
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	list-style: none;
+}
+
+.property-galery {
+	float: left;
+}
+
+.thumbs li {
+	width: 12.5%;
+	float: left;
+	overflow: hidden;
+	max-height: 68px;
+}
+
+.thumbs .active {
+	/* filter use is only uspported on modern browsers -- any other styles can be applied */
+	opacity: 0.6;
+	-webkit-filter: grayscale(0.5) saturate(0);
+	-moz-filter: grayscale(0.5) saturate(0);
+	filter: grayscale(0.5) saturate(0);
+}
+
+.thumbs a:hover:not(.active) {
+	/* filter use is only uspported on modern browsers -- any other styles can be applied */
+	opacity: 0.8;
+}

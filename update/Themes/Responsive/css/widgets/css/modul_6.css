@@ -1,0 +1,45 @@
+/* widget testimonial */
+
+.testimonials-con blockquote {
+	font-style: italic;
+	line-height: 24px;
+	margin: 0 0 20px;
+	padding: 20px 0;
+}
+
+.testimonials-con blockquote .bqstart{
+	float: left;
+	height: 45px;
+	margin: -20px 25px -50px -22px;
+	padding: 45px 0 0;
+	font-size: 100px;
+	color: #6aacb8;
+}
+
+.testimonials-con blockquote .bqend {
+	float: right;
+	padding: 45px 0 0;
+	font-size: 100px;
+	color: #6aacb8;
+	margin: 0 25px 0 0;
+}
+
+.testimonials-con blockquote .name {
+	float: left;
+	margin: 25px 0 0;
+	font-size: 18px;
+	font-style: normal;
+	color: #6aacb8;
+}
+
+.testimonials-con blockquote .name .resize-con {
+	width: 45px;
+	margin: 0 15px 0 0;
+	float: left;
+}
+
+.testimonials-con blockquote .name strong {
+	color: #333;
+	font-size: 13px;
+	float: left;
+}

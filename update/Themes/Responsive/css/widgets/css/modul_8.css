@@ -1,0 +1,23 @@
+/* widget streetmatch */
+
+.streetmatch-con .streetmatch {
+	position: absolute;
+	width: 80%;
+	left: 50%;
+	top: 25%;
+	margin: 0 0 0 -40%;
+}
+
+.streetmatch-con .streetmatch .resize-con.logo {
+	width: 80%;
+	margin: 0 auto;
+	padding: 0 0 80px;
+}
+
+.streetmatch-con .streetmatch input {
+	width: 70%;
+}
+
+.streetmatch-con .streetmatch button {
+	width: 30%;
+}

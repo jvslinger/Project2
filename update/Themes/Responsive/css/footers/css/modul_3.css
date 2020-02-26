@@ -1,0 +1,47 @@
+/* footer modul 3 */
+
+.modul-3 {
+	background: #558b95;
+	font-family: 'museo_sans100';
+}
+
+.legal-text {
+	color: #fff;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.copyright-links {
+	margin: 15px 0 0;
+}
+
+.copyright-links li {
+	padding: 0 4px 0 0;
+	float: left;
+	color: #fff;
+	font-size: 11px;
+}
+
+.copyright-links li a {
+	color: #fff;
+}
+
+.copyright-links li a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+/* mediaqueries for footer modul 3 */
+
+@media only screen and (max-width: 20.063em) { }
+@media only screen and (max-width: 40.063em) { 
+
+	.copyright-links li.copyright-co {
+		width: 100%;
+		padding: 0 0 5px;
+	}
+
+}
+@media only screen and (max-width: 64.063em) { }
+@media only screen and (max-width: 90.063em) { }
+@media only screen and (min-width: 120.063em) { }

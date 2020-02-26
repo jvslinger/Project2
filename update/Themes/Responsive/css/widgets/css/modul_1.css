@@ -1,0 +1,38 @@
+/* widget similar */
+
+.sim-con .resize-con {
+	width: 22%;
+	margin: 0 4% auto 0;
+	float: left;
+}
+
+.sim-con ul li {
+	margin: 0 0 10px;
+}
+
+.sim-con ul li a {
+	padding: 2%;
+	width: 96%;
+	display: block;
+	border-bottom: 1px solid #e4e4e4;
+}
+
+.sim-con ul li a h5 {
+	color: #333;
+	font-size: 18px;
+	line-height: 22px;
+	margin: 0 0 20px;
+}
+
+.sim-con ul li a span {
+	color: #666;
+	font-size: 12px;
+}
+
+.sim-con ul li:hover a {
+	border-bottom: 1px solid #6aacb8;
+}
+
+.sim-con ul li:hover h5 {
+	color: #6aacb8;
+}

@@ -1,0 +1,220 @@
+/* search bar / expend */
+
+.search-all.expend {
+	position: relative;
+}
+
+.search-all.expend.fixed {
+	position: fixed;
+	z-index: 9999;
+	top: 0;
+	left: 50%;
+	width: 90%;
+	margin: 0 0 0 -45%;
+}
+
+.search-all.expend .search-par {
+	width: 100%;
+	float: left;
+	background: #4e4e4e;
+}
+
+.search-all.expend .search-par a {
+	padding: 8px;
+	background: #333;
+	color: #fff;
+	margin: 0 1px 1px 0;
+	float: left;
+	font-size: 12px;
+}
+
+.auto-complete-list {
+	width: 100%;
+	position: absolute;
+	z-index: 999;
+	top: 39px;
+	background: #fff;
+	padding: 1.5% 0;
+	display: none;
+	max-height: 300px;
+	overflow-y: auto;
+}
+
+.auto-complete-list .section-group {
+	padding: 15px 0;
+	border-bottom: 1px solid #f4f4f4;
+	float: left;
+	width: 100%;
+}
+
+.auto-complete-list .section-group:hover {
+	background: #f4f4f4;
+}
+
+.auto-complete-list .section {
+	float: left;
+	width: 96%;
+	padding: 0 0 8px 2%;
+	border-bottom: 1px solid #f4f4f4;
+	margin: 0 0 10px;
+}
+
+.auto-complete-list .list {
+	width: 96%;
+	float: left;
+	margin: 0 0 0 2%;
+	
+}
+
+.auto-complete-list a {
+	width: 97%;
+	padding: 0.5%;
+	float: left;
+	color: #333;
+}
+
+.auto-complete-list a:hover, .auto-complete-list a.hover {
+	color: #fff;
+	background: #6aacb8;
+}
+
+.auto-complete-list .section strong {
+	line-height: 22px;
+	color: #999;
+}
+
+.search-all.expend .main-par {
+	float: left;
+	width: 100%;
+	background: #f4f4f4;
+}
+
+.search-all.expend .form {
+	width: 100%;
+}
+
+.search-all.expend .refine-par-btn, .search-all.expend .more-par-btn {
+	display: block;
+	width: 98%;
+	float: left;
+	padding: 1%;
+	background: #6aacb8;
+	color: #fff;
+	text-align: center;
+	font-family: 'museo_sans300';
+	font-weight: normal;
+}
+
+.search-all.expend .more-par-btn {}
+
+.search-all.expend .more-par-group,
+.search-all.expend .refine-par-group {
+	float: left;
+	width: 98%;
+	padding: 1%;
+}
+
+.search-all.expend .more-par-group {
+	display: none;
+}
+
+
+
+.search-all.fixed .main-par {
+	display: none;
+}
+
+.search-all.expend .form .term {
+	width: 80%;
+}
+
+.search-all.expend .form label span {
+	color: #6aacb8;
+	font-weight: bold;
+	font-size: 12px;
+	float: left;
+	margin: 0 0 5px;
+}
+
+.search-all.expend p.note {
+	color: #6aacb8;
+	font-weight: bold;
+	font-size: 12px;
+	float: left;
+	width: 100%;
+}
+
+.search-all.expend .form .typeofhome,
+.search-all.expend .form .community,
+.search-all.expend .form .beds,
+.search-all.expend .form .baths,
+.search-all.expend .form .minprice,
+.search-all.expend .form .maxprice {
+	width: 15.6%;
+	padding: 0 0.5% 20px;
+}
+
+.search-all.expend .form button.btn {
+	width: 20%;
+	float: right;
+	padding: 10px 1.5%;
+}
+
+.search-all.expend .form .salerent,
+.search-all.expend .form .garages,
+.search-all.expend .form .pool {
+	width: 32.3%;
+	padding: 0 0.5% 20px;
+}
+
+@media only screen and (max-width: 64.063em) { 
+	.search-all.expend .form .term {
+		width: 70%;
+	}
+
+	.search-all.expend .form button.btn {
+		width: 30%;
+		float: left;
+	}
+
+	.search-all.expend .form .typeofhome, 
+	.search-all.expend .form .community, 
+	.search-all.expend .form .beds, 
+	.search-all.expend .form .baths, 
+	.search-all.expend .form .minprice, 
+	.search-all.expend .form .maxprice {
+		width: 32.3%;
+	}
+
+
+	.search-all.expend .main-par {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 40.063em) { 
+	.search-all.expend .form .term {
+		width: 100%;
+	}
+
+	.search-all.expend .form button.btn {
+		width: 100%;
+	}
+
+	.search-all.expend .more-par .more-par-group {
+		width: 98%;
+		padding: 1%;
+	}
+
+	.search-all.expend .form .typeofhome, 
+	.search-all.expend .form .community, 
+	.search-all.expend .form .beds, 
+	.search-all.expend .form .baths, 
+	.search-all.expend .form .minprice, 
+	.search-all.expend .form .maxprice,
+	.search-all.expend .form .salerent,
+	.search-all.expend .form .garages,
+	.search-all.expend .form .pool {
+		width: 99%;
+	}
+}

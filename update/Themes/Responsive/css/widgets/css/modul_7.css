@@ -1,0 +1,32 @@
+/* widget newsletter */
+
+.newsletter-con p {
+	float: left;
+	width: 68%;
+	margin: 15px 0 0;
+}
+
+.newsletter-con .fa {
+	float: left;
+	color: #acdbe4;
+}
+
+.newsletter-con label span {
+	float: left;
+}
+
+.newsletter-con .newsletter {
+	display: block;
+	padding: 10px 0 0;
+	border-top: 1px solid #f4f4f4;
+	margin: 10px 0 0;
+}
+
+.newsletter-con .newsletter input {
+	width: 65%;
+}
+
+.newsletter-con .newsletter button {
+	width: 35%;
+	padding: 10px 0;
+}

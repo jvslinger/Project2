@@ -1,0 +1,27 @@
+/* property main title */
+
+.property-title {
+    width: 100%;
+    float: left;
+    margin: 20px 0 0;
+}
+
+.property-title .btn {
+    float: left;
+    margin: 0 0 30px;
+}
+
+.property-title h1 {
+    color: #7ac5d3;
+    font-size: 35px;
+    float: left;
+    width: 100%;
+}
+
+.property-title h2 {
+    float: left;
+    padding: 1% 0;
+    font-size: 20px;
+    font-weight: normal;
+    width: 100%;
+}

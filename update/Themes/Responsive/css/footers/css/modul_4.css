@@ -1,0 +1,56 @@
+/* footer modul 4 */
+
+.modul-4 {
+	background: #2c393c;
+}
+
+.powered-text {
+	float: left;
+	font-size: 12px;
+	margin: 12px 0;
+	color: #fff;
+}
+
+.powered-text a {
+	color: #fff;
+}
+
+.powered-text a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.powered-logo {
+	float: right;
+	display: block;
+	width: 107px;
+	height: 19px;
+	background: url('../images/agentlocator_logo.png') no-repeat top left;
+	margin: 10px 0 0;
+}
+
+/* mediaqueries for footer modul 4 */
+
+@media only screen and (max-width: 40.063em) { 
+	
+	.powered-logo {
+		margin: 8px 0;
+	}
+
+	.powered-text {
+		display: none;
+	}
+
+}
+
+@media only screen and (max-width: 64.063em) { 
+	
+	.powered-logo {
+		margin: 8px 0;
+	}
+
+	.powered-text {
+		font-size: 10px;
+	}
+
+}

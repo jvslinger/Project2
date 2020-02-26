@@ -1,0 +1,115 @@
+/* tab styles */
+
+.resp-tabs-list {
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #e3e3e3;
+}
+
+.resp-tabs-list li {
+    display: inline-block;
+    padding: 13px 15px;
+    color: #666;
+    background: #fff;
+    border-right: 1px solid #e3e3e3;
+    border-top: 1px solid #e3e3e3;
+    border-bottom: 3px solid #e3e3e3;
+    text-shadow: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+}
+
+.resp-tabs-list li:first-child {
+	border-left: 1px solid #e3e3e3;
+}
+
+.resp-tabs-container {
+    clear: left;
+}
+
+h2.resp-accordion {
+    display: none;
+	color: #666;
+    background: #fff;
+    border-right: 1px solid #e3e3e3;
+    border-left: 1px solid #e3e3e3;
+    border-top: 1px solid #e3e3e3;
+    border-bottom: 3px solid #e3e3e3;
+    text-shadow: none;
+    padding: 10px 15px;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.resp-tab-content {
+    display: none;
+    padding: 15px 0 0;
+}
+
+.resp-tabs-list li.resp-tab-active, h2.resp-tab-active {
+    background: #6aacb8;
+    border-bottom: 3px solid #558b95;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .4);
+    color: #fff;
+    cursor: pointer;
+}
+
+.resp-content-active, .resp-accordion-active {
+    display: block;
+}
+
+h2.resp-tab-active {
+    padding: 10px 15px !important;
+}
+
+.resp-arrow {
+	float: right;
+	color: #333;
+	display: inline-block;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.resp-arrow:after {
+	content: "\f107";
+}
+
+h2.resp-tab-active span.resp-arrow:after {
+	content: "\f106";
+	color: #fff;
+}
+
+.resp-easy-accordion  h2.resp-accordion {
+    display: block;
+}
+
+.resp-jfit {
+    width: 100%;
+}
+
+.resp-tab-content-active {
+    display: block;
+}
+
+
+@media only screen and (max-width: 40.063em) {
+    
+    ul.resp-tabs-list {
+        display: none;
+    }
+
+    h2.resp-accordion {
+        display: block;
+    }
+
+    .resp-accordion-closed {
+        display: none !important;
+    }
+
+}

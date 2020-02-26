@@ -1,0 +1,223 @@
+/* search sidebar */
+
+.search-all.sidebar {
+	position: relative;
+	overflow: auto;
+    height: auto;
+}
+
+.search-all.sidebar.fixed.scrollbox {
+    overflow: auto;
+    height: 400px;
+}
+
+.search-all.sidebar.fixed {
+	position: fixed;
+	z-index: 9999;
+	top: 0;
+	left: 5%;
+	width: 26%;
+} 
+
+.search-all.sidebar .search-par {
+	width: 100%;
+	float: left;
+	background: #4e4e4e;
+}
+
+.search-all.sidebar .search-par a {
+	padding: 8px;
+	background: #333;
+	color: #fff;
+	margin: 0 1px 1px 0;
+	float: left;
+	font-size: 12px;
+}
+
+.auto-complete-list {
+	width: 100%;
+	position: absolute;
+	z-index: 999;
+	top: 100%;
+	background: #fff;
+	padding: 1.5% 0;
+	display: none;
+	max-height: 300px;
+	overflow-y: auto;
+}
+
+.auto-complete-list .section-group {
+	padding: 15px 0;
+	border-bottom: 1px solid #f4f4f4;
+	float: left;
+	width: 100%;
+}
+
+.auto-complete-list .section-group:hover {
+	background: #f4f4f4;
+}
+
+.auto-complete-list .section {
+	float: left;
+	width: 96%;
+	padding: 0 0 8px 2%;
+	border-bottom: 1px solid #f4f4f4;
+	margin: 0 0 10px;
+}
+
+.auto-complete-list .list {
+	width: 96%;
+	float: left;
+	margin: 0 0 0 2%;
+	
+}
+
+.auto-complete-list a {
+	width: 97%;
+	padding: 0.5%;
+	float: left;
+	color: #333;
+}
+
+.auto-complete-list a:hover, .auto-complete-list a.hover {
+	color: #fff;
+	background: #6aacb8;
+}
+
+.auto-complete-list .section strong {
+	line-height: 22px;
+	color: #999;
+}
+
+.search-all.sidebar .main-par {
+	float: left;
+	width: 100%;
+	background: #f4f4f4;
+}
+
+.search-all.sidebar .form {
+	width: 100%;
+}
+
+.search-all.sidebar .refine-par-btn, .search-all.sidebar .more-par-btn {
+	display: block;
+	width: 98%;
+	float: left;
+	padding: 1%;
+	background: #6aacb8;
+	color: #fff;
+	text-align: center;
+	font-family: 'museo_sans300';
+	font-weight: normal;
+}
+
+.search-all.fixed .main-par {
+	display: none;
+}
+
+.search-all.sidebar .more-par-btn {}
+
+.search-all.sidebar .more-par-group,
+.search-all.sidebar .refine-par-group {
+	float: left;
+	width: 98%;
+	padding: 1%;
+}
+
+.search-all.sidebar .more-par-group {
+	display: none;
+}
+
+.search-all.sidebar .form .term {
+	width: 100%;
+}
+
+.search-all.sidebar .form label span {
+	color: #6aacb8;
+	font-weight: bold;
+	font-size: 12px;
+	float: left;
+	margin: 0 0 5px;
+}
+
+.search-all.sidebar p.note {
+	color: #6aacb8;
+	font-weight: bold;
+	font-size: 12px;
+	float: left;
+}
+
+.search-all.sidebar .form .typeofhome,
+.search-all.sidebar .form .community,
+.search-all.sidebar .form .beds,
+.search-all.sidebar .form .baths,
+.search-all.sidebar .form .minprice,
+.search-all.sidebar .form .maxprice,
+.search-all.sidebar .form .salerent,
+.search-all.sidebar .form .garages,
+.search-all.sidebar .form .pool {
+	width: 99%;
+	padding: 0 0.5% 20px;
+}
+
+.search-all.sidebar .form button.btn {
+	width: 100%;
+	float: right;
+	padding: 10px 1.5%;
+}
+
+@media only screen and (max-width: 64.063em) { 
+
+	.search-all.sidebar.fixed {
+		width: 90%;
+	}
+
+	.search-all.sidebar .form .term {
+		width: 70%;
+	}
+
+	.search-all.sidebar .form button.btn {
+		width: 30%;
+		float: left;
+	}
+
+	.search-all.sidebar .form .typeofhome, 
+	.search-all.sidebar .form .community, 
+	.search-all.sidebar .form .beds, 
+	.search-all.sidebar .form .baths, 
+	.search-all.sidebar .form .minprice, 
+	.search-all.sidebar .form .maxprice {
+		width: 32.3%;
+	}
+
+	.search-all.sidebar .main-par {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 40.063em) { 
+	.search-all.sidebar .form .term {
+		width: 100%;
+	}
+
+	.search-all.sidebar .form button.btn {
+		width: 100%;
+	}
+
+	.search-all.sidebar .more-par .more-par-group {
+		width: 98%;
+		padding: 1%;
+	}
+
+	.search-all.sidebar .form .typeofhome, 
+	.search-all.sidebar .form .community, 
+	.search-all.sidebar .form .beds, 
+	.search-all.sidebar .form .baths, 
+	.search-all.sidebar .form .minprice, 
+	.search-all.sidebar .form .maxprice,
+	.search-all.sidebar .form .salerent,
+	.search-all.sidebar .form .garages,
+	.search-all.sidebar .form .pool {
+		width: 99%;
+	}
+}

@@ -1,0 +1,67 @@
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* TOP BAR */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* top bar modul 1 */
+
+.top-bar {
+	background: #191e25; 
+	font-family: 'museo_sans100';
+}
+
+.top-bar .wrapper {
+	padding: 10px 0;
+}
+
+.top-contact-links {
+	float: left;
+}
+
+.top-login-links {
+	float: right;
+}
+
+.top-contact-links a {
+	display: block;
+	float: left;
+	margin: 0 10px 0 0;
+	color: #737981;
+	font-size: 12px;
+}
+
+.top-login-links a {
+	display: block;
+	float: left;
+	margin: 0 0 0 10px;
+	color: #737981;
+	font-size: 12px;
+
+}
+
+.top-contact-links a:hover {
+	color: #fff;
+}
+
+.top-login-links a:hover  {
+	color: #fff;
+}
+
+/* mediaqueries */
+
+@media only screen and (max-width: 40.063em) {
+
+	.top-contact-links a {
+		overflow: hidden;
+		width: 25px;
+		height: 22px;
+	}
+
+	.top-login-links {
+		margin: 5px 0 0;
+	}	
+
+	.top-contact-links a i.fa {
+		font-size: 2em;
+	}
+
+}

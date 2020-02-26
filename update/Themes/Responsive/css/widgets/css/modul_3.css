@@ -1,0 +1,18 @@
+/* widget facebook */
+
+.facebook-con {
+	height: 400px;
+}
+
+#fb-root {
+    display: none;
+}
+
+.fb-like-box iframe {
+	overflow: hidden;
+	height: 400px !important;
+}
+
+.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+    width: 100% !important;
+}

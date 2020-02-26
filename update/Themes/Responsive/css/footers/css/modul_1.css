@@ -1,0 +1,69 @@
+/* footer modul 1 */
+
+.modul-1 {
+	background: #edf0f4;
+}
+
+.footer-logo {
+	float: left;
+	display: block;
+	width: 116px;
+	height: 17px;
+	background: url('../images/footer_logo.png') no-repeat top left;
+	margin: 6px 0 0;
+}
+
+.footer-social {
+	float: right;
+}
+
+.footer-social li {
+	float: left;
+	margin: 0 0 0 4px;
+}
+
+.footer-social .social-ico {
+	display: block;
+	text-indent: 9999px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-image: url('../images/social_sprite.png');
+	width: 30px;
+	height: 30px;
+}
+
+.footer-social .fb { background-position: 0 -30px; }
+.footer-social .tw { background-position: -30px -30px; }
+.footer-social .ln { background-position: -60px -30px; }
+.footer-social .in { background-position: -90px -30px; }
+.footer-social .rs { background-position: -120px -30px; }
+.footer-social .yt { background-position: -150px -30px; }
+.footer-social .gp { background-position: -180px -30px; }
+.footer-social .pi { background-position: -210px -30px; }
+.footer-social .wp { background-position: -240px -30px; }
+
+.footer-social .fb:hover { background-position: 0 0; }
+.footer-social .tw:hover { background-position: -30px 0; }
+.footer-social .ln:hover { background-position: -60px 0; }
+.footer-social .in:hover { background-position: -90px 0; }
+.footer-social .rs:hover { background-position: -120px 0; }
+.footer-social .rs:hover { background-position: -120px 0; }
+.footer-social .yt:hover { background-position: -150px 0; }
+.footer-social .gp:hover { background-position: -180px 0; }
+.footer-social .pi:hover { background-position: -210px 0; }
+.footer-social .wp:hover { background-position: -240px 0; }
+
+/* mediaqueries for footer modul 1 */
+
+@media only screen and (max-width: 40.063em) {
+	.footer-logo {
+		margin: 0 auto !important;;
+		float: none;
+	}
+
+	.footer-social {
+		float: none;
+		margin: 20px auto 0 !important;;
+		width: 171px;
+	}
+} 

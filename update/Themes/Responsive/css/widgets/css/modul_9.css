@@ -1,0 +1,23 @@
+/* widget homeworth */
+
+.homeworth-con .homeworth {
+	position: absolute;
+	width: 80%;
+	left: 50%;
+	top: 25%;
+	margin: 0 0 0 -40%;
+}
+
+.homeworth-con .homeworth .resize-con.logo {
+	width: 80%;
+	margin: 0 auto;
+	padding: 0 0 80px;
+}
+
+.homeworth-con .homeworth input {
+	width: 70%;
+}
+
+.homeworth-con .homeworth button {
+	width: 30%;
+}

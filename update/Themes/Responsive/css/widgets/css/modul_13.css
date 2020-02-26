@@ -1,0 +1,90 @@
+/* widget about us */
+
+.wid .head-contact {
+	width: 100%;
+	float: left;
+}
+
+.wid .head-contact .tile {
+	margin: 0 0 25px;
+}
+
+.wid .head-contact .contact-name {
+	width: 100%;
+	display: block;
+	text-align: center;
+	font-family: 'museo_sans100';
+	font-weight: normal;
+	font-size: 18px;
+	margin: 0 0 20px;
+	color: #333;
+}
+
+.wid .head-contact .contact-social {
+	margin: 0 auto;
+	width: 138px;
+	padding: 0 0 15px;
+	height: 32px;
+	float: none;
+}
+
+.wid .head-contact .contact-social li {
+	float: left;
+	margin: 0 4px 0 0;
+}
+
+.wid .head-contact .contact-social .social-ico {
+	display: block;
+	text-indent: 999px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-image: url('../images/social_sprite.png');
+	width: 30px;
+	height: 30px;
+}
+
+.contact-social .fb { background-position: 0 -30px; }
+.contact-social .tw { background-position: -30px -30px; }
+.contact-social .ln { background-position: -60px -30px; }
+.contact-social .in { background-position: -90px -30px; }
+.contact-social .rs { background-position: -120px -30px; }
+
+.contact-social .fb:hover { background-position: 0 0; }
+.contact-social .tw:hover { background-position: -30px 0; }
+.contact-social .ln:hover { background-position: -60px 0; }
+.contact-social .in:hover { background-position: -90px 0; }
+.contact-social .rs:hover { background-position: -120px 0; }
+
+.wid .head-contact .contact-email, .wid .head-contact .contact-phone {
+	width: 100%;
+	float: left;
+	text-align: center;
+	font-size: 14px;
+	margin: 0 0 10px;
+	color: #333;
+}
+
+@media only screen and (max-width: 64.063em) {
+
+	.wid .head-contact .contact-social li {
+		margin: 4px;
+	}
+
+	.wid .head-contact .contact-social {
+		width: 76px;
+		height: 76px;
+	}
+
+	.wid .head-contact .contact-email, .wid .head-contact .contact-phone {
+		font-size: 12px;
+	}
+
+}
+
+@media only screen and (max-width: 40.063em) { 
+
+	.wid .head-contact .contact-email, .wid .head-contact .contact-phone {
+		font-size: 14px;
+	}
+
+}

@@ -1,0 +1,55 @@
+/* featured slider */
+
+.featured-properties-4-con, .featured-properties-2-con, .featured-properties-1-con,
+.featured-communities-4-con, .featured-communities-2-con, .featured-communities-1-con {
+	display: none;
+}
+
+.featured-properties-4-con .sy-pager, .featured-properties-2-con .sy-pager, .featured-properties-1-con .sy-pager,
+.featured-communities-4-con .sy-pager, .featured-communities-2-con .sy-pager, .featured-communities-1-con .sy-pager {
+	position: static;
+}
+
+/* mediaqueries */
+
+@media only screen and (max-width: 120.063em) {
+	.featured-properties-4-con,
+	.featured-communities-4-con {
+		display: block;
+	}
+
+	.featured-properties-2-con, .featured-properties-1-con,
+	.featured-communities-2-con, .featured-communities-1-con {
+		display: none;
+	}
+} 
+
+@media only screen and (max-width: 64.063em) { 
+	.featured-properties-2-con,
+	.featured-communities-2-con {
+		display: block;
+	}
+
+	.featured-properties-4-con, .featured-properties-1-con,
+	.featured-communities-4-con, .featured-communities-1-con {
+		display: none;
+	}
+
+	.featured-properties-2-con .property,
+	.featured-communities-2-con .property {
+		width: 46%;
+		margin: 0 2%;
+	}
+} 
+
+@media only screen and (max-width: 40.063em) { 
+	.featured-properties-1-con,
+	.featured-communities-1-con {
+		display: block;
+	}
+
+	.featured-properties-4-con, .featured-properties-2-con,
+	.featured-communities-4-con, .featured-communities-2-con {
+		display: none;
+	}
+} 
